@@ -1,0 +1,20 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int time = sc.nextInt();
+        System.out.println("enter the number");
+        if(time >=18){
+             System.out.println("good morning");
+            
+        }
+        else if(time < 15){
+             System.out.println("good nyt");
+             
+        }
+        else{
+             System.out.println("Try programiz.pro");
+        }
+        
+    }
+}
