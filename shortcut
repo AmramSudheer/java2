@@ -1,0 +1,9 @@
+class Main {
+    public static void main(String[] args) {
+        int x = 12;
+        int y = 11;
+        int result = 0;
+        result = (x > y) ? x : y;
+        System.out.println(result);
+    }
+}
